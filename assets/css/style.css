@@ -1,10 +1,3 @@
-/**
-* Template Name: Arsha
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -44,7 +37,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #9EC5AB;
 }
 
 #preloader:before {
@@ -52,7 +45,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid #9EC5AB;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -81,7 +74,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47b2e4;
+  background: #9EC5AB;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -95,7 +88,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #9EC5AB;
   color: #fff;
 }
 
@@ -553,53 +546,9 @@ section {
   font-size: 26px;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-left: 28px;
-  position: relative;
-}
-
-.about .content ul li+li {
-  margin-top: 10px;
-}
-
-.about .content ul i {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 20px;
-  color: #47b2e4;
-  line-height: 1;
-}
 
 .about .content p:last-child {
   margin-bottom: 0;
-}
-
-.about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 4px;
-  transition: 0.3s;
-  line-height: 1;
-  color: #47b2e4;
-  animation-delay: 0.8s;
-  margin-top: 6px;
-  border: 2px solid #47b2e4;
-}
-
-.about .content .btn-learn-more:hover {
-  background: #47b2e4;
-  color: #fff;
-  text-decoration: none;
 }
 
 
@@ -607,7 +556,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 90, 70, 0.9), rgba(34, 88, 63, 0.9)), url("https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -637,8 +586,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #47b2e4;
-  border: 2px solid #47b2e4;
+  background: #26402F;
+  border: 2px solid #26402F;
 }
 
 @media (max-width: 1024px) {
@@ -660,8 +609,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #26402F;
+  border-bottom: 3px solid #26402F;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -670,7 +619,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #26402F;
   float: left;
   width: 44px;
   height: 44px;
@@ -687,14 +636,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #26402F;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #26402F;
 }
 
 .contact .info .email p {
@@ -708,7 +657,7 @@ section {
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  background: #26402F;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -721,21 +670,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #47b2e4;
+  background: #26402F;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: #26402F;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #26402F;
+  border-bottom: 3px solid #26402F;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -812,7 +761,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #47b2e4;
+  border-color: #26402F;
 }
 
 .contact .php-email-form input {
@@ -824,7 +773,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #26402F;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -833,7 +782,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: #26402F;
 }
 
 @keyframes animate-loading {
@@ -865,7 +814,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #26402F;
 }
 
 .breadcrumbs ol {
@@ -884,7 +833,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4668a2;
+  color: #26402F;
   content: "/";
 }
 
@@ -893,12 +842,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #26402F;
 }
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #f3f5fa;
+  background: #9EC5AB;
   text-align: center;
   font-size: 15px;
   color: #444444;
@@ -910,7 +859,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #26402F;
 }
 
 #footer .footer-newsletter form {
@@ -938,7 +887,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #47b2e4;
+  background: #26402F;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -946,7 +895,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #209dd8;
+  background: #26402F;
 }
 
 #footer .footer-top {
@@ -965,7 +914,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #26402F;
 }
 
 #footer .footer-top .footer-contact p {
@@ -979,7 +928,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #26402F;
   position: relative;
   padding-bottom: 12px;
 }
@@ -996,7 +945,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #26402F;
   font-size: 18px;
   line-height: 1;
 }
@@ -1020,13 +969,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #26402F;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #26402F;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1039,7 +988,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #26402F;
   color: #fff;
   text-decoration: none;
 }
